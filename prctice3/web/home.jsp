@@ -1,9 +1,9 @@
 <%-- 
-    Document   : success
-    Created on : Jul 1, 2024, 9:40:51 AM
-    Author     : Sanaullah
+    Document   : home
+    Created on : Jul 1, 2024, 3:19:58 PM
+    Author     : Admin
 --%>
-
+ 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -12,8 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1 style="color: green">Data Save successful</h1>
-        <%@include file="studentaddfrom.jsp" %>
-        <h1>hello World!</h1>
+        <a href="studentaddfrom.jsp">Add student</a>
+        
     </body>
 </html>
