@@ -10,7 +10,7 @@ import java.util.logging.Logger;
 
 public class Dbutil {
     private static  Connection con=null;
-    private static String url="jdbc:mysql://localhost:3307/java";
+    private static String url="jdbc:mysql://localhost:3306/java";
     private static String user="root";
     private static String password="1234";
     private static String driver="com.mysql.cj.jdbc.Driver";

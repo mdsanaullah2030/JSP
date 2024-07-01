@@ -15,7 +15,7 @@
         <h1>Student From </h1>
         <form action="savestudent.jsp" method="post">
             Name: <input type="text" name="name"> <br>
-            Email:<input type="email" email="email"> <br>
+            Email:<input type="email" name="email"> <br>
             
             <input type="submit" value="Save">
            

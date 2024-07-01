@@ -1,6 +1,6 @@
 <%-- 
     Document   : home
-    Created on : Jul 1, 2024, 6:12:30 AM
+    Created on : Jul 1, 2024, 11:43:52 AM
     Author     : Sanaullah
 --%>
 
@@ -12,8 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <a href="studentaddfrom.jsp">Add student</a>
-        <a href="viewAllStudent.jsp">View student</a>
         <h1>Hello World!</h1>
     </body>
 </html>
