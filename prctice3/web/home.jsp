@@ -12,7 +12,8 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <a href="studentaddfrom.jsp">Add student</a>
+        <a href="studentaddfrom.jsp">Add student</a> <br>
+        <a href="viewallstudent.jsp">View All Student</a>
         
     </body>
 </html>
