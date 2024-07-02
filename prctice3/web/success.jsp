@@ -14,7 +14,7 @@
     <body>
         
         <h1 style="color: green"> Data save successful </h1>
-        <%@include file="studentaddfrom.jsp" %>
+        <%@include file="viewallstudent.jsp" %>
         
         
     </body>
