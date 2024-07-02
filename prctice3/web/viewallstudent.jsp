@@ -30,7 +30,7 @@ request.setAttribute("list", list);
                 <td>${s.getEmail()}</td>
                 
                 <td>
-                    <a href="#">Edit</a>
+                    <a href="updatestudentform.jsp?id=${s.getId()}">Edit</a>
                     
                     <a href="deletestudent.jsp?id=${s.getId()}">Delete</a>
                 </td>

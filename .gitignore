@@ -2,10 +2,29 @@
 /WebApplication1/nbproject/private/
 /WebApplication1/build/
 /WebApplication1/dist/
+<<<<<<< HEAD
+/prctice2/nbproject/private/
+/prctice2/build/
+/prctice2/dist/
+=======
 /WebApplication2/nbproject/private/
 /prctice3/nbproject/private/
 /prctice3/build/
 /prctice3/dist/
+<<<<<<< HEAD
 /prctice4/nbproject/private/
 /prctice4/dist/
 /prctice4/build/
+=======
+>>>>>>> 2954596cc8414cf60ad184386800851fcb0328a3
+/WebApplication2/build/
+/WebApplication2/dist/
+/jsp1/nbproject/private/
+/jsp1/dist/
+/jsp1/build/
+/WebApplication3/nbproject/private/
+/WebApplication3/build/
+/WebApplication3/dist/
+/WebApplication4/nbproject/private/
+/WebApplication4/build/
+>>>>>>> 24d1ea2dd04ba953101646199df03a06d82cbf92

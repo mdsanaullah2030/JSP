@@ -81,5 +81,52 @@ public class StudentDao {
     
     
     }
+    public static void updateStudent(Student s){
+        sql="update student set name=?, email=? where id=?";
+        
+        try {
+            ps=Dbutil.getCon().prepareStatement(sql);
+            
+                ps=Dbutil.getCon().prepareStatement(sql);
+            ps.setString(1, s.getName());
+            ps.setString(2, s.getEmail());
+            ps.setInt(3, s.getId());
+            
+            ps.executeUpdate();
+            ps.close();
+            Dbutil.getCon().close();
+            
+        } catch (SQLException ex) {
+            Logger.getLogger(StudentDao.class.getName()).log(Level.SEVERE, null, ex);
+        }
+    
+    
+    }
+    
+    public static Student getById(int id){
+    Student s=null;
+    sql="select * from student where id=?";
+        try {
+            ps=Dbutil.getCon().prepareStatement(sql);
+            ps.setInt(1, id);
+            rs=ps.executeQuery();
+              while(rs.next()){
+            
+                 s=new Student(
+                        rs.getInt("id"), 
+                        rs.getString("name"), 
+                        rs.getString("email")
+                );
+            
+            }
+            rs.close();
+            ps.close();
+            Dbutil.getCon().close();
+        } catch (SQLException ex) {
+            Logger.getLogger(StudentDao.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        return s;
+    
+    }
 }
  
