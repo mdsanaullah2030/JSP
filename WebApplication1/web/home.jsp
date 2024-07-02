@@ -13,6 +13,7 @@
     </head>
     <body>
         <a href="studentaddfrom.jsp">Add student</a>
+        <a href="viewAllStudent.jsp">View student</a>
         <h1>Hello World!</h1>
     </body>
 </html>

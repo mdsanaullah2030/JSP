@@ -1,8 +1,4 @@
-<%-- 
-    Document   : studentaddfrom
-    Created on : Jul 1, 2024, 9:51:44 AM
-    Author     : Sanaullah
---%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -18,8 +14,8 @@
             Email:<input type="email" name="email"> <br>
             
             <input type="submit" value="Save">
-           
-            
+     
         </form>
+
     </body>
 </html>

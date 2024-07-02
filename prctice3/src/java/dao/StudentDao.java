@@ -26,7 +26,7 @@ public class StudentDao {
             + "values(?,?)";
     
         try {
-            ps=Dbutil.getCon().prepareCall(sql);
+            ps=Dbutil.getCon().prepareStatement(sql);
             ps.setString(1, s.getName());
             ps.setString(2, s.getEmail());
             status=ps.executeUpdate();

@@ -12,7 +12,10 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1 style="color: red">Data Save Usuccessful</h1>
-        <%@include file="studentaddfrom.jsp"%>
+        <h1 style="color: red">Data Save unccessful</h1>
+        <%@include file="studentaddfrom.jsp" %>
+        
+     
+        
     </body>
 </html>
