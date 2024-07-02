@@ -1,5 +1,9 @@
+<%-- 
+    Document   : home
+    Created on : Jul 2, 2024, 3:13:23 PM
+    Author     : Admin
+--%>
 
- 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -8,8 +12,6 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <a href="studentaddfrom.jsp">Add student</a> <br>
-        <a href="viewallstudent.jsp">View All Student</a>
-        
+        <h1>Hello World!</h1>
     </body>
 </html>

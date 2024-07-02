@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 import model.Student;
 
 
-public class StudentDao {
+public class StudentDao1 {
   
     static PreparedStatement ps;
     static ResultSet rs;
@@ -34,7 +34,7 @@ public class StudentDao {
             ps.close();
             Dbutil.getCon().close();
         } catch (SQLException ex) {
-            Logger.getLogger(StudentDao.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(StudentDao1.class.getName()).log(Level.SEVERE, null, ex);
         }
         return status;
     
@@ -59,7 +59,7 @@ public class StudentDao {
             ps.close();
             Dbutil.getCon().close();
         } catch (SQLException ex) {
-            Logger.getLogger(StudentDao.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(StudentDao1.class.getName()).log(Level.SEVERE, null, ex);
         }
         return stList;
     
@@ -76,7 +76,7 @@ public class StudentDao {
             Dbutil.getCon().close();
             
         } catch (SQLException ex) {
-            Logger.getLogger(StudentDao.class.getName()).log(Level.SEVERE, null, ex);
+            Logger.getLogger(StudentDao1.class.getName()).log(Level.SEVERE, null, ex);
         }
     
     
