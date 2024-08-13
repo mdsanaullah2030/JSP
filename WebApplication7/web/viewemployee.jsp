@@ -8,8 +8,9 @@ List <Employee> list=EmployeeDao.viewAllEmployee();
 request.setAttribute("List",list);
 
 %>
-<table border="1">
-    <thead>
+
+<table class="table  table-bordered" style="height: 50%; width: 70%;">
+    <thead class="thead-dark">
         <tr>
             <th>ID</th>
             <th>Name</th>
@@ -19,22 +20,18 @@ request.setAttribute("List",list);
         </tr>
     </thead>
     <tbody>
-
         <k:forEach var="e" items="${List}">
             <tr>
                 <td>${e.getId()}</td>
                 <td>${e.getName()}</td>
                 <td>${e.getDepartment()}</td>
                 <td>${e.getGender()}</td>
-
                 <td>
-                    <a href="updateemployeeaddform.jsp?id=${e.getId()}">Edit</a>
-                    <a href="deleteemployee.jsp?id=${e.getId()}">Delete</a>
+                    <a href="updateemployeeaddform.jsp?id=${e.getId()}" class="btn btn-primary btn-sm">Edit</a>
+                    <a href="deleteemployee.jsp?id=${e.getId()}" class="btn btn-danger btn-sm">Delete</a>
                 </td>
             </tr>
-        </k:forEach> 
-
+        </k:forEach>
     </tbody>
-
-
 </table>
+
