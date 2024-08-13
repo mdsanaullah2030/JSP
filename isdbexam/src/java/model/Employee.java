@@ -4,22 +4,22 @@ public class Employee {
 
     private int id;
     private String name;
-    private String department;
+    private String Department;
     private String gender;
 
     public Employee() {
     }
 
-    public Employee(int id, String name, String department, String gender) {
+    public Employee(int id, String name, String Department, String gender) {
         this.id = id;
         this.name = name;
-        this.department = department;
+        this.Department = Department;
         this.gender = gender;
     }
 
-    public Employee(String name, String department, String gender) {
+    public Employee(String name, String Department, String gender) {
         this.name = name;
-        this.department = department;
+        this.Department = Department;
         this.gender = gender;
     }
 
@@ -40,11 +40,11 @@ public class Employee {
     }
 
     public String getDepartment() {
-        return department;
+        return Department;
     }
 
-    public void setDepartment(String department) {
-        this.department = department;
+    public void setDepartment(String Department) {
+        this.Department = Department;
     }
 
     public String getGender() {
@@ -54,5 +54,8 @@ public class Employee {
     public void setGender(String gender) {
         this.gender = gender;
     }
+   
 
+
+  
 }

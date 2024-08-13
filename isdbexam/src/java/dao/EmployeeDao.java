@@ -24,13 +24,13 @@ public class EmployeeDao {
     public static int saveEmployee(Employee e) {
         int status = 0;
 
-        sql = "insert into teacher (name,department,gender) values(?,?,?)";
+        sql = "insert into teacher (name,Department,gender) values(?,?,?)";
         try {
             ps = DBUtil.getCon().prepareStatement(sql);
             ps.setString(1, e.getName());
             ps.setString(2, e.getDepartment());
             ps.setString(3, e.getGender());
-    
+           
 
             status = ps.executeUpdate();
 
@@ -55,8 +55,8 @@ public class EmployeeDao {
                         rs.getInt("id"),
                         rs.getString("name"),
                         rs.getString("Department"),
-                        rs.getString("gender")
-                 
+                        rs.getString("gender"),
+                        
                 );
                 eList.add(e);
             }
@@ -91,7 +91,8 @@ public class EmployeeDao {
             ps.setString(1, e.getName());
             ps.setString(2, e.getDepartment());
             ps.setString(3, e.getGender());
-            ps.setInt(4, e.getId());
+            
+            ps.setInt(5, e.getId());
 
             ps.executeUpdate();
 
@@ -117,8 +118,8 @@ public class EmployeeDao {
                         rs.getInt("id"),
                         rs.getString("name"),
                         rs.getString("Department"),
-                        rs.getString("gender")
-                  
+                        rs.getString("gender"),
+                        
                 );
 
             }

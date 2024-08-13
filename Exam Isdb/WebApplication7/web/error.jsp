@@ -1,4 +1,5 @@
 
+
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -7,8 +8,7 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1><a href="saveemployeeaddform.jsp"> Add Employee</a></h1> 
-        <h1><a href="viewemployee.jsp"> View Employee</a></h1>
-        
+       <h1 style="color: red">Data Save Unsuccessful</h1>
+       <%@include file="saveemployeeaddform.jsp"%>
     </body>
 </html>
