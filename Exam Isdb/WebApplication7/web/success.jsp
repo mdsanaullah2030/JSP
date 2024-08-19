@@ -10,6 +10,6 @@
     <body>
         
         <h1 style="color: green">Data Save Successful</h1>
-        <%@include file="saveemployeeaddform.jsp" %>
+        <%@include file="viewemployee.jsp" %>
     </body>
 </html>
