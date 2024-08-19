@@ -9,7 +9,7 @@ import java.util.logging.Logger;
 public class DBUtil {
 
     private static Connection con = null;
-    private static String url = "jdbc:mysql://localhost:3306/sanaullah";
+    private static String url = "jdbc:mysql://localhost:3307/jee";
     private static String user = "root";
     private static String password = "";
     private static String driver = "com.mysql.cj.jdbc.Driver";
